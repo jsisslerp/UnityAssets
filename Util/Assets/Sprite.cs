@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sprite : MonoBehaviour {
+public class Sprite : PersistentGameObjectSingleton<Sprite>
+{
 
 	// Use this for initialization
 	void Start () {
